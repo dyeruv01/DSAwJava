@@ -29,7 +29,7 @@ public class Queue {
                     rear=-1;
                 }
 
-                //intArray[data]== rear;
+                intArray[++rear]= data;
                 itemCount++;
             }
         }
